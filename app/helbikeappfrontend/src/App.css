@@ -1,0 +1,32 @@
+.MainPage {
+  background-color: #9adcf8;
+  height: 100vh;
+}
+.Circle {
+  /* width: 300px;
+  height: 300px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+ background: radial-gradient(yellow,#9adcf8 );
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  background-color: yellow;
+ 
+  margin-top: -32px;
+  margin-left: -800px;*/
+
+  position: absolute;
+  width: 412px;
+  height: 412px;
+  left: -135px;
+  top: -155px;
+  background-color: #e9e032;
+
+  /*background: rgba(233, 224, 50, 0.9);*/
+  filter: blur(50px);
+  border-radius: 50%;
+}

@@ -1,0 +1,115 @@
+.navbar {
+  box-sizing: border-box;
+  background-color: #9adcf8;
+  height: 20vh;
+}
+
+.nav-element {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+
+.nav-header {
+  height: 20rem;
+  width: 236.5px;
+  z-index: 1000;
+}
+
+.nav-items {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-items li {
+  list-style: none;
+  margin: 0 2%;
+}
+
+.nav-items li a {
+  text-decoration: none;
+}
+
+.rounded-image {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+  filter: drop-shadow(20px 20px 23px rgba(0, 0, 0, 0.25));
+}
+
+.bike-images {
+  background: #70b1e2;
+  filter: blur(50px);
+  align-items: center;
+  justify-content: center;
+}
+
+.Home {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeFront {
+  /*margin-top: 60px;
+  font-size: 70px;
+  color: #0087ce;
+  word-wrap: break-word;
+  font-family: Inter;*/
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85px;
+  text-transform: capitalize;
+
+  color: #0087ce;
+}
+.HomeFront1 {
+  font-size: 20px;
+  color: #0087ce;
+}
+
+.footerStyle {
+  /*width: 100%;*/
+  display: flex;
+  /*align-items: center;*/
+
+  margin-left: 10px;
+}
+/*
+
+
+.footerStyle-1 {
+  margin-left: 10px;
+  background-color: #0087ce;
+}
+
+.footerStyle-3 {
+  margin-left: 10px;
+}
+.footerStyle-4 {
+  margin-left: 10px;
+}
+*/
+.footerStyle-0 {
+  margin: auto;
+  margin-left: 60px;
+}
+.footerStyle-1 {
+  margin-left: 10px;
+  color: #0087ce;
+}
+
+.footerStyle-2 {
+  margin-left: 100px;
+  color: rgba(0, 135, 206, 0.5);
+}
